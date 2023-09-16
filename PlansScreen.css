@@ -1,0 +1,32 @@
+.plansScreen {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .plansScreen_plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .plansScreen_plan button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the Subscribe buttons */
+  .plansScreen_plan button.subscribe {
+    background-color: #e50914; /* Red color */
+    color: white;
+  }
+  
+  /* Style for the Current Package button */
+  .plansScreen_plan button.currentPackage {
+    background-color: gray;
+    color: white;
+  }
+  
